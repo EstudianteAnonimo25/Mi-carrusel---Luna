@@ -1,0 +1,100 @@
+/* Fondo general oscuro */
+body {
+background-color: #0d1117;
+color: #e6edf3;
+font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar-dark {
+background-color: #0b0f14 !important;
+}
+
+.navbar-nav .nav-link {
+color: #c9d1d9;
+}
+.navbar-nav .nav-link:hover {
+color: #58a6ff;
+}
+
+.carousel-inner img {
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+}
+
+/* Botones del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+background-color: rgba(255, 255, 255, 0.5);
+border-radius: 50%;
+}
+
+/* Espaciado abajo del carrusel */
+#carrusel {
+margin-bottom: 50px;
+}
+
+/* Pie de página si lo agregas después */
+footer {
+background-color: #0b0f14;
+color: #888;
+text-align: center;
+padding: 20px 0;
+font-size: 14px;
+}
+
+.formulario{
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+}
+
+.formulario h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.campo{
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 450px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: lightyellow;
+    cursor: pointer;
+}
+
+.card-custom {
+position: relative;
+background-image: url('IMG/tu-imagen.jpg');
+background-size: cover;
+background-position: center;
+height: 250px;
+border-radius: 15px;
+overflow: hidden;
+}
+
+.card-img-overlay {
+position: absolute;
+bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* fondo semitransparente */
+color: darkblue;
+width: 100%;
+padding: 10px;
+}
